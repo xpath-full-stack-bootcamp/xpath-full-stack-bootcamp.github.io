@@ -22,14 +22,12 @@ body {
 }
 
 .top-header h1 {
-    order: 1;
-    margin: 0 0 0 10px;
+    margin: 0 10px 0 0;
     font-size: 20px;
     font-weight: bold;
 }
 
 .logo {
-    order: 2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,7 +101,7 @@ body {
 }
 
 .tabs {
-    margin-left: auto; /* Garante que as tabs fiquem alinhadas à direita */
+    margin-left: 0 auto;
 }
 
 .tabs ul {

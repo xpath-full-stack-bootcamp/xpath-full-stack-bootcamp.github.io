@@ -101,3 +101,29 @@ body {
 .content h3 {
     margin-top: 0;
 }
+
+.tabs {
+    margin-left: auto; /* Garante que as tabs fiquem alinhadas à direita */
+}
+
+.tabs ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.tabs ul li {
+    margin: 0 10px;
+}
+
+.tabs ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.tabs ul li a:hover {
+    color: #ddd;
+}
